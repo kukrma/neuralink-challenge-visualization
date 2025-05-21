@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Segoe UI";
+    margin: 0px;
+    background-color: white;
+}
+h1 {
+    font-size: 16pt;
+    text-align: center;
+    margin-bottom: 2px;
+    color: cadetblue;
+}
+h2 {
+    font-size: 12pt;
+    text-align: center;
+    color: lightslategray;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 12pt;
+    text-align: left;
+    margin-bottom: 2px;
+    color: cadetblue;
+}
+.switcher {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid cadetblue;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 10pt;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.switcher:hover {
+    background-color: white;
+    color: cadetblue;
+    transition: 0.3s;
+}
+.slider-label {
+    text-align: center;
+    font-size: 10pt;
+    color: lightslategray;
+}
+.ok-button {
+    color: white;
+    background-color: cadetblue;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: 10pt;
+
+}
+input[type="number"] {
+    width: 100px;
+    padding: 5px 5px; 
+    border-radius: 5px;
+    border: 0px;
+    font-size: 10pt;
+    color: lightslategray;
+    background-color: white;
+}
+.dropdown-label {
+    text-align: left;
+    font-size: 10pt;
+    color: lightslategray;
+}
+.dropdown {
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    font-size: 10pt;
+    color: lightslategray;
+    background-color: white;
+    outline: none;
+    box-shadow: none;
+}
+.custom-radio-label input[type="radio"] {
+    vertical-align: middle;
+    accent-color: cadetblue;
+    margin-right: 6px;
+}
+.custom-radio-label {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    color: rgb(119, 136, 153);
+    font-size: 10pt;
+    margin-right: 12px;
+}
+.rc-slider {
+    height: 8px;
+    margin: 10px 0;
+}
+.rc-slider-track {
+    background-color: cadetblue;
+}
+.rc-slider-rail {
+    background-color: white;
+}
+.rc-slider-handle {
+    border: 2px solid cadetblue;
+    background-color: cadetblue;
+}
+.rc-slider-dot {
+    border: 2px solid white;
+}
+.rc-slider-dot-active{
+    border: 2px solid cadetblue;
+    background-color: white;
+}
