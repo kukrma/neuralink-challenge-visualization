@@ -61,7 +61,8 @@ The seminar work is structured as follows:
 │   ├── app.py                                                  - script to launch the application
 │   └── preprocessing.py                                        - script to do raw N1 signal preprocessing
 └── doc/                                                      - contains the documentation/short paper
-    └── kukral_VI_documentation.pdf                             - PDF with the documentation/short paper
+    ├── kukral_VI_documentation.pdf                             - PDF with the documentation/short paper
+    └── kukral_VI_latex.zip                                     - LaTeX source files for the documentation
 ```
 
 Files enclosed by `**...**` are not part of this GitHub repository due to their size. The signals in the `raw/` folder (which is empty in this repository) can be downloaded from the above mentioned *Neuralink Compression Challenge* website and the `signals.npy` file is created during the execution of the `preprocess.py` script. Thanks to the provided pre-computed correlation matrices and reordering indices, it is possible to save a lot of time when executing the `preprocess.py` script, as they take a long time (especially the correlation analysis).
