@@ -31,7 +31,7 @@ The application does not work without the necessary data, which is not published
 With the downloaded dataset, it is possible to preprocess it using the provided script `preprocess.py`.
 
 ## Description of Files
-The repository is structured as follows:
+The seminar work is structured as follows:
 ```
 ├── bin/                                                      - contains the application and data
 │   ├── assets/                                                 - contains additional files for the website
