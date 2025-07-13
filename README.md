@@ -24,7 +24,7 @@ To use this code, you first need to install Python on your computer and optional
 
 With everything prepared, the code should be ready to use. One you launch the `app.py` script, the application can be accessed locally on URL: [http://127.0.0.1:8050/](http://127.0.0.1:8050/) via any web browser as long as the script is running.
 
-The application does not work without the necessary data, which is not published on this repository due to its significant size. Luckily, the entire dataset is publicly available on the *Neuralink Compression Challenge* website:
+The application does not work without the necessary data, which is not published on this repository due to uncertain licensing by Neuralink. However, the entire dataset is publicly available on the *Neuralink Compression Challenge* website:
 
 [<img src="https://img.shields.io/badge/URL-Neuralink Compression Challenge-white">](https://content.neuralink.com/compression-challenge/README.html)
 
