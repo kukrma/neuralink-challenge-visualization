@@ -45,7 +45,7 @@ for file in tqdm(os.listdir("data/raw")):
     # save the signal into the array:
     signals.append(signal)
 # turn the list of signals into a np.array:
-signals = np.array(signals)
+signals = np.array(signals).astype(np.int16)
 # print relevant values:
 channels = signals.shape[0]
 print(f"POČET ELEKTROD:       {channels}")
