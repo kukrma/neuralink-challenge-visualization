@@ -1,6 +1,6 @@
 # Neuralink Compression Challenge: Web-based Interactive Visualization of N1 Implant Signals and Inter-Channel Correlations in Python
 
-This GitHub repository hosts the seminar project for the **KIV/VI (*Information Visualization*)** course, which is part of the curriculum at the **Department of Computer Science and Engineering, Faculty of Applied Sciences, University of West Bohemia**.
+This GitHub repository hosts the seminar project for the **KIV/VI (*Information Visualization*)** course, which is part of the curriculum at the **Department of Computer Science and Engineering, Faculty of Applied Sciences, University of West Bohemia in Pilsen**.
 
 [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
 
